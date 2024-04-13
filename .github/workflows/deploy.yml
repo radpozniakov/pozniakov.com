@@ -19,9 +19,9 @@ jobs:
       - name: Setup key
         run: |
           set -eu
-          mkdir -p ~/.ssh
-          echo "${{ secrets.SECRET_KEY }}" > ~/.ssh/id_rsa  
-          chmod 600 ~/.ssh/id_rsa
+          mkdir "$HOME/.ssh"
+          echo "${{ secrets.SECRET_KEY }}" > "$HOME/.ssh/id_rsa"
+          chmod 600 "$HOME/.ssh/id_rsa"
 
       # Build
       - name: Install dependencies
@@ -30,5 +30,5 @@ jobs:
         run: npm run build
         # Deploy
       - name: Deploy
-        run: rsync -e "ssh -i ~/.ssh/id_rsa -o StrictHostKeyChecking=no" --archive --compress --delete . ${{secrets.DIGITALOCEAN_USERNAME}}@${{secrets.DIGITALOCEAN_HOST}}:${{secrets.STAGING_PATH}}
+        run: rsync -e "ssh -i $HOME/.ssh/id_rsa -o StrictHostKeyChecking=no" --archive --compress --delete . ${{secrets.DIGITALOCEAN_USERNAME}}@${{secrets.DIGITALOCEAN_HOST}}:${{secrets.STAGING_PATH}}
         working-directory: ./dist
