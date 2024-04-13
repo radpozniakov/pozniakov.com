@@ -1,0 +1,5 @@
+title: Not found
+description: A page that’s missing
+permalink: 404/index.html
+layout: web-expertise.njk
+cover: intro.jpg

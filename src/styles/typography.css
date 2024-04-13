@@ -1,0 +1,53 @@
+.head_1 {
+  font-family: var(--font-family-primary);
+  font-size: calc(1.5rem * var(--scale-ratio));
+  font-weight: normal;
+  line-height: calc(1.5rem * var(--scale-ratio));
+}
+
+.head-2 {
+  font-family: var(--font-family-primary);
+  font-size: calc(1.25rem * var(--scale-ratio));
+  font-weight: normal;
+  line-height: calc(1.75rem * var(--scale-ratio));
+}
+
+.short-text {
+  font-family: var(--font-family-secondary);
+  font-size: calc(0.75rem * var(--scale-ratio));
+  line-height: calc(1.5rem * var(--scale-ratio));
+  font-weight: normal;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: var(--subheading-color);
+}
+
+.short-text-s {
+  font-size: calc(0.625rem * var(--scale-ratio));
+  letter-spacing: 0.5px;
+  font-weight: normal;
+  line-height: calc(1rem * var(--scale-ratio));
+  font-family: var(--font-family-secondary);
+  text-transform: uppercase;
+  color: var(--subheading-color);
+}
+
+.text {
+  font-size: calc(1rem * var(--scale-ratio));
+  font-weight: normal;
+  line-height: calc(1.5rem * var(--scale-ratio));
+  letter-spacing: -0.5px;
+}
+
+.nav-text {
+  text-decoration: none;
+  font-size: calc(0.75rem * var(--scale-ratio));
+  font-family: var(--font-family-secondary);
+  text-transform: uppercase;
+  color: var(--text-color);
+}
+
+.outline:focus-visible {
+  outline: 1px solid var(--outline-color);
+  outline-offset: 2px;
+}

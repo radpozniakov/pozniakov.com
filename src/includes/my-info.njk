@@ -1,0 +1,32 @@
+<section class="my-info">
+  <figure class="my-info__photo">
+      <picture>
+        <source srcset="
+                /assets/img/portrait/portrait-2240.jpeg 2240w,
+                /assets/img/portrait/portrait-1920.jpeg 1920w,
+                /assets/img/portrait/portrait-1600.jpeg 1600w,
+                /assets/img/portrait/portrait-1280.jpeg 1280w,
+                /assets/img/portrait/portrait-960.jpeg 960w,
+                /assets/img/portrait/portrait-640.jpeg 640w,
+                /assets/img/portrait/portrait-320.jpeg 320w"
+              type="image/jpeg"
+              sizes="
+              (max-width: 640) calc(100vw - 2rem)
+              (min-width: 641px) 40rem">
+                <img src="/assets/img/portrait/portrait-960.jpeg" fetchpriority="high" alt="Rodion Pozniakov photo">
+        </picture>
+  </figure> 
+  <h1 class="head_1 my-info__name">{{ siteData.myName }}</h1>
+  <p class="text my-info__description">{{ description }}</p>
+
+  <address class="my-info__contacts">
+    <div class="contact-item">
+      <strong class="short-text contact-item__title">Location:</strong>
+      <p class="contact-item__value">{{ siteData.myLocation}}</p>
+    </div>
+    <div class="contact-item">
+      <strong class="short-text contact-item__title">Email:</strong>
+      <p class="text contact-item__value contact-item__value--email"><a class="outline" tabindex="0" href="mailto:{{siteData.myEmail}}">{{siteData.myEmail}}</a></p>
+    </div>
+  </address>
+</section>

@@ -1,0 +1,20 @@
+<section class="links">
+        {% for block in siteData.promoBlocks %}
+          <div class="link-group">
+            <h2 class="short-text link-group__title">{{block.groupTitle}}</h2>
+            <div class="link-group__links">
+             {% for linkItem in block.links %}
+              <a href="{{linkItem.url}}" class="link-item outline">
+                  <figure class="link-item__img">
+                    <img alt="unslash logo" src="{{linkItem.img}}"/>
+                  </figure>
+                  <div class="link-item__data">
+                    <h3 class="text link-item__title">{{linkItem.name}}</h3>
+                    <p class="short-text-s link-item__description">{{linkItem.description}}</p>
+                  </div>
+              </a>
+             {% endfor %}
+            </div>
+          </div>
+        {% endfor %}
+      </section>

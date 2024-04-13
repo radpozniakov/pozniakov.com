@@ -1,0 +1,38 @@
+@import 'global.css';
+@import 'typography.css';
+@import 'sections/my-info.css';
+@import 'sections/top-navigation.css';
+@import 'sections/links.css';
+@import 'sections/my-web-expertise.css';
+@import 'sections/footer.css';
+
+.one-column-content {
+  max-width: 40rem;
+  margin: 0 auto;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.one-column-content--offset {
+  padding-top: calc(4.4rem * var(--scale-ratio));
+}
+
+@media (min-width: 400px) {
+  :root {
+    --scale-ratio: 1;
+  }
+  .my-info__contacts {
+    display: flex;
+    margin: calc(2.5rem * var(--scale-ratio)) 0;
+    gap: 0;
+  }
+  .contact-item {
+    flex-basis: 50%;
+  }
+}
+
+@media (min-width: 768px) {
+  :root {
+    --scale-ratio: 1;
+  }
+}

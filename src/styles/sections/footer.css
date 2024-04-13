@@ -1,0 +1,10 @@
+.footer {
+  display: flex;
+  justify-content: center;
+  margin-top: calc(4rem * var(--scale-ratio));
+  margin-bottom: calc(2rem * var(--scale-ratio));
+}
+
+.footer__text {
+  color: var(--footer-mark-text-color);
+}

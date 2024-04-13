@@ -1,0 +1,46 @@
+.my-info__photo {
+  margin-bottom: calc(1.2rem * var(--scale-ratio));
+}
+
+.my-info__photo img {
+  max-width: 100%;
+  width: 100%;
+  height: auto;
+}
+
+.my-info__name {
+  margin-bottom: calc(1rem * var(--scale-ratio));
+}
+
+.my-info__contacts {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: calc(2rem * var(--scale-ratio));
+  margin-top: calc(2rem * var(--scale-ratio));
+  gap: calc(1rem * var(--scale-ratio));
+}
+
+.contact-item {
+  flex-basis: 100%;
+}
+.contact-item__title {
+  font-style: normal;
+  font-weight: normal;
+}
+
+.contact-item__value {
+  font-style: normal;
+}
+
+.contact-item__value--email a {
+  color: var(--text-color);
+  text-decoration: none;
+}
+/* .contact-item__value--email a:focus-visible {
+  outline: 1px solid var(--outline-color);
+  outline-offset: 2px;
+} */
+
+.contact-item__value--email a:hover {
+  text-decoration: underline;
+}

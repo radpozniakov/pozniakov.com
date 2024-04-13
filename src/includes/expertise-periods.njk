@@ -1,0 +1,20 @@
+<section class="my-web-expertise__periods">
+  <!-- Present -->
+  {% for p in siteData.webExperience %}
+      <div class="my-web-expertise__period">
+      <strong class="short-text my-web-expertise__period__year-range">{{p.period}}</strong>
+      {% if loop.index == 1 %}
+      <div class="my-web-expertise__period-description">
+      {% else %}
+      <div class="my-web-expertise__period-description">
+    {% endif %}
+      <h2 class="my-web-expertise__position text">{{p.position}}</h2>
+        <ul class="my-web-expertise__acivities text">
+          {% for activity in p.acivities %}
+            <li class="my-web-expertise__activity-item">{{activity}}</li>
+          {% endfor %}
+        </ul> 
+      </div>
+    </div>
+  {% endfor %}
+  </section>

@@ -1,0 +1,7 @@
+---
+permalink: /
+layout: intro.njk
+title: Personal Page
+description: The personal page that aggregates links to all my activities
+cover: intro.jpg
+---

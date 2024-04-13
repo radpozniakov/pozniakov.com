@@ -1,0 +1,77 @@
+.my-web-expertise__about {
+  margin-bottom: calc(3rem * var(--scale-ratio));
+}
+
+.my-web-expertise__periods {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  gap: calc(2rem * var(--scale-ratio));
+}
+
+.my-web-expertise__period__year-range {
+  display: inline-block;
+  margin-bottom: calc(0.25rem * var(--scale-ratio));
+}
+
+.my-web-expertise__period-description {
+  background-color: var(--link-card-bg-color);
+  padding: calc(1rem * var(--scale-ratio));
+}
+
+.my-web-expertise__period-description--current {
+  outline: solid 1px #292929;
+}
+
+.my-web-expertise__position {
+  position: relative;
+  margin-bottom: calc(1rem * var(--scale-ratio));
+  padding-bottom: calc(1rem * var(--scale-ratio));
+  border-bottom: solid 1px #292929;
+  text-transform: uppercase;
+}
+
+.my-web-expertise__acivities {
+  padding-left: calc(1rem * var(--scale-ratio));
+}
+
+.my-web-expertise__activity-item {
+  margin-bottom: calc(0.5rem * var(--scale-ratio));
+}
+
+.my-web-expertise__timeline {
+  display: none;
+  position: absolute;
+  height: 100%;
+  left: 0;
+  top: 0;
+}
+
+.my-web-expertise__timeline svg {
+  max-width: calc(1.25rem * var(--scale-ratio));
+  width: calc(1.25rem * var(--scale-ratio));
+}
+
+@media (min-width: 530px) {
+  /* .my-web-expertise__periods {
+    padding-left: calc(3rem * var(--scale-ratio));
+  } */
+  /* .my-web-expertise__position::before {
+    content: '';
+    position: absolute;
+    background-color: var(--inactive-dot-color);
+    outline: solid 2px rgb(30, 30, 30);
+    border-radius: 50%;
+    top: calc(0.5rem * var(--scale-ratio));
+    left: calc(-2.2rem * var(--scale-ratio));
+    width: calc(0.75rem * var(--scale-ratio));
+    height: calc(0.75rem * var(--scale-ratio));
+    z-index: 1;
+  } */
+  /* .my-web-expertise__position--current::before {
+    background-color: var(--active-dot-color);
+  } */
+  /* .my-web-expertise__timeline {
+    display: block;
+  } */
+}

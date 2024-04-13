@@ -1,0 +1,58 @@
+@font-face {
+  font-family: 'FiraCode';
+  src: url('../assets/fonts/FiraCode-Light.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Inter';
+  src: url('../assets/fonts/Inter-Regular.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+:root {
+  --white: #f9f9f9;
+  --green: #0c9c09;
+  --hor: #cffd51;
+  --almost-black: #0f0f0f;
+  --dark-gray: #191919;
+  --gray: #838080;
+}
+
+:root {
+  --scale-ratio: 0.875;
+  --font-family-primary: 'FiraCode', monospace;
+  --font-family-secondary: 'Inter', sans-serif;
+  --text-color: var(--white);
+  --outline-color: var(--hor);
+  --active-dot-color: var(--green);
+  --bg-color: var(--almost-black);
+
+  --link-card-bg-color: var(--dark-gray);
+  --subheading-color: var(--gray);
+  --footer-mark-text-color: #525252;
+  --inactive-dot-color: #525252;
+  --link-card-hover-bg-color: #2c2c2c;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+html {
+  background-color: var(--bg-color);
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  color: var(--text-color);
+  font-family: var(--font-family-primary);
+  background: linear-gradient(180deg, #141414 0%, var(--bg-color) 100%);
+}

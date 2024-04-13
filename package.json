@@ -1,0 +1,29 @@
+{
+  "name": "pozniakov.com",
+  "version": "1.0.0",
+  "description": "My personal page",
+  "main": "index.js",
+  "scripts": {
+    "dev": "eleventy --serve --quiet",
+    "build": "rm -rf dist && eleventy"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/radpozniakov/pozniakov.com.git"
+  },
+  "author": "Rad Pozniakov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/radpozniakov/pozniakov.com/issues"
+  },
+  "homepage": "https://github.com/radpozniakov/pozniakov.com#readme",
+  "devDependencies": {
+    "@11ty/eleventy": "^2.0.1",
+    "autoprefixer": "^10.4.19",
+    "html-minifier": "^4.0.0",
+    "js-yaml": "^4.1.0",
+    "postcss": "^8.4.38",
+    "postcss-csso": "^6.0.1",
+    "postcss-import": "^16.1.0"
+  }
+}
