@@ -86,7 +86,7 @@ module.exports = {
     },
   ],
   iWorkedWith:
-    'Sketch, Figma, Developing design systems, Storybook, React, Next.js, Vue, Nuxt.js, Three.js, Typescript, Node.js, Express, Mongodb, REST API,  CI/CD, Vite, Webpack, Parcel, Rollup, Linux',
+    'Sketch, Figma, Developing design systems, Storybook, React, Next.js, Vue, Nuxt.js, Three.js, Typescript, Node.js, Express, MongoDB, REST API,  CI/CD, Vite, Webpack, Parcel, Rollup, Linux',
   webExperience: [
     {
       period: '2019 - Present',
