@@ -15,7 +15,7 @@
   --white: #f9f9f9;
   --green: #0c9c09;
   --hor: #cffd51;
-  --almost-black: #0f0f0f;
+  --almost-black: #101010;
   --dark-gray: #191919;
   --gray: #838080;
 }
@@ -54,5 +54,6 @@ body {
   padding: 0;
   color: var(--text-color);
   font-family: var(--font-family-primary);
-  background: linear-gradient(180deg, #141414 0%, var(--bg-color) 100%);
+  /* background: linear-gradient(180deg, #141414 0%, var(--bg-color) 100%); */
+  background-color: var(--bg-color);
 }
