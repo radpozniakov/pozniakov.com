@@ -19,6 +19,12 @@ module.exports = {
           img: '/assets/img/links/web.svg',
           url: '/web-expertise',
         },
+        {
+          name: 'Linkedin',
+          description: 'My linkedin profile',
+          img: '/assets/img/links/linkedin.svg',
+          url: 'https://www.linkedin.com/in/rodion-pozniakov-244738a4/',
+        },
         // {
         //   name: 'Imagine',
         //   description: 'Figma plugin that generated datasets using AI',
