@@ -2,6 +2,8 @@ const fs = require('fs');
 const htmlMin = require('html-minifier');
 const yaml = require('js-yaml');
 const postcss = require('postcss');
+const postcssCsso = require('postcss-csso');
+const autoprefixer = require('autoprefixer');
 const postcssImport = require('postcss-import');
 
 module.exports = function (eleventyConfig) {
@@ -34,7 +36,11 @@ module.exports = function (eleventyConfig) {
       }
 
       return async () => {
-        let output = await postcss([postcssImport]).process(content, {
+        let output = await postcss([
+          postcssImport,
+          autoprefixer,
+          postcssCsso,
+        ]).process(content, {
           from: path,
         });
 
