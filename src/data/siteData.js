@@ -102,6 +102,7 @@ module.exports = {
         'Provided rapid prototypes for user testing, facilitating an iterative design process.',
         'Assisted designers in bridging communication with developers.',
         'Created tools to streamline the design process and enhance the productivity of designers.',
+        'Created plugins with AI integration for Figma to enhance the design process.',
         'Participated in creating designs for complex enterprise systems.',
         'Developed resources on Three.js for 3D data visualization.',
       ],
