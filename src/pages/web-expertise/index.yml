@@ -1,5 +1,5 @@
 permalink: web-expertise/index.html
-layout: web-expertise.njk
+layout: page.njk
 title: Web Expertise
 description: I am a UI/UX designer and front-end developer with over 10 years of experience. I am passionate about creating beautiful and functional websites, applications, and useful tools. I always seek new challenges and opportunities to learn and grow as a designer and developer.
 cover: intro.jpg

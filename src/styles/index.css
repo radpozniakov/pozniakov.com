@@ -5,6 +5,7 @@
 @import 'sections/links.css';
 @import 'sections/my-web-expertise.css';
 @import 'sections/footer.css';
+@import 'sections/404.css';
 
 .one-column-content {
   max-width: 40rem;
