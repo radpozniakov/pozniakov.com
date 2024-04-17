@@ -1,6 +1,13 @@
 <main class="one-column-content">
+  <section class="top-navigation">
+    <nav class="top-navigation__list">
+      <a class="nav-text outline top-navigation__item top-navigation__item--with-divider" href="/">Home</a>
+      <span class="nav-text top-navigation__item top-navigation__item--inactive">/</span>
+      <span class="nav-text top-navigation__item top-navigation__item--inactive">error</span>
+    </nav>
+  </section>
   <div class="error">
-    <h1 class="error__code head_1">404</h1>
-    <p class="terror__message text">Page not found</p>
+    <h1 class="error__code head_1">{{ title }}</h1>
+    <p class="terror__message text">{{ description }}</p>
   </div>
 </main>

@@ -1,5 +1,5 @@
-title: Not found
-description: A page that’s missing
+title: '404'
+description: Page not found
 permalink: 404/index.html
 layout: page.njk
 cover: intro.jpg
