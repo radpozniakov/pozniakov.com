@@ -54,6 +54,8 @@ module.exports = function (eleventyConfig) {
     'src/fonts',
     'src/assets',
     'src/manifest.json',
+    'src/sitemap.xml',
+    'src/robots.txt',
   ].forEach((path) => eleventyConfig.addPassthroughCopy(path));
 
   return {
