@@ -1,5 +1,5 @@
 permalink: web-expertise/index.html
 layout: page.njk
 title: Web Expertise
-description: I am a UI/UX designer and front-end developer with over 10 years of experience. I am passionate about creating beautiful and functional websites, applications, and useful tools. I always seek new challenges and opportunities to learn and grow as a designer and developer.
+description: "I’m an interface designer and frontend developer in love with the Web, technologies, making music, taking photos, and riding fixed-gear bicycles.\nI started in 2013 by developing my blog, and since then, I've created a lot of stuff, including personal web pages, useful instruments and tools, plugins for Figma and Sketch, blogs, 3D widgets for visualizing data, and design systems. I've tried a variety of JavaScript frameworks and libraries (React, Vue, Node.js, etc.). I went through the entire process of developing the idea, from designing to deploying and supporting Linux servers."
 cover: intro.jpg
