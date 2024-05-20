@@ -19,6 +19,12 @@ module.exports = {
           img: '/assets/img/links/web.svg',
           url: '/web-expertise',
         },
+        // {
+        //   name: 'Articles',
+        //   description: 'My thoughts on design and development',
+        //   img: '/assets/img/links/articles.svg',
+        //   url: 'https://articles.pozniakov.dev',
+        // },
         {
           name: 'Linkedin',
           description: 'My linkedin profile',
@@ -92,19 +98,20 @@ module.exports = {
     },
   ],
   iWorkedWith:
-    'Sketch, Figma, Developing design systems, Storybook, React, Next.js, Vue, Nuxt.js, Three.js, Typescript, Node.js, Express, MongoDB, REST API,  CI/CD, Vite, Webpack, Parcel, Rollup, Linux',
+    'Sketch, Figma, Developing design systems, Storybook, React, Next.js, Vue, Nuxt.js, Three.js, Typescript, Node.js, Express, MongoDB, REST API,  CI/CD, JS Bundlers, Linux',
   webExperience: [
     {
       period: '2019 - Present',
       position: 'UI/UX Designer & Front-end developer at Trinetix',
       acivities: [
-        'Developed a design system on React.',
+        'Developed a design system on React with more than 80 components written from scratch according to accessibility standards.',
         'Provided rapid prototypes for user testing, facilitating an iterative design process.',
         'Assisted designers in bridging communication with developers.',
+        'Conducted workshops for the design team to introduce new tools, and web features',
         'Created tools to streamline the design process and enhance the productivity of designers.',
         'Created plugins with AI integration for Figma to enhance the design process.',
         'Participated in creating designs for complex enterprise systems.',
-        'Developed resources on Three.js for 3D data visualization.',
+        'Developed projects on Three.js for 3D data visualization.',
       ],
     },
     {
